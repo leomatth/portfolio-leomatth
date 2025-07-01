@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portfólio de Leonardo Mattheus - Desenvolvedor Front-end apaixonado por interfaces modernas, performáticas e projetos reais. Veja meus trabalhos com React, JavaScript, Firebase, entre outras tecnologias.">
+  <meta name="author" content="Leonardo Mattheus">
+  <title data-i18n="meta.title">Leonardo Mattheus | Desenvolvedor Front-End</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar" aria-label="Navegação principal">
+      <h1 class="logo">Leonardo Mattheus</h1>
+      <ul class="nav-links">
+        <li><a href="#sobre" data-i18n="nav.sobre">Sobre</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projetos" data-i18n="nav.projetos">Projetos</a></li>
+        <li><a href="#contato" data-i18n="nav.contato">Contato</a></li>
+      </ul>
+      <div class="actions">
+        <button id="theme-toggle" aria-label="Alternar tema">🌓</button>
+        <select id="lang-select" aria-label="Trocar idioma">
+          <option value="pt">PT</option>
+          <option value="en">EN</option>
+          <option value="fr">FR</option>
+        </select>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" aria-label="Apresentação inicial">
+      <h2 data-i18n="hero.greeting">Oi, eu sou o Leonardo 👋</h2>
+      <p data-i18n="hero.subtitle">Desenvolvedor front-end focado em criar experiências web modernas com JavaScript/Typescript,
+        React e muito código limpo.</p>
+      <a href="#projetos" class="btn" data-i18n="hero.button">Veja meus projetos</a>
+    </section>
+
+    <section id="sobre" aria-labelledby="titulo-sobre">
+      <h2 id="titulo-sobre" data-i18n="sobre.titulo">Sobre mim</h2>
+      <div class="sobre-flex">
+        <p data-i18n="sobre.texto">
+          Sou Leonardo Mattheus, desenvolvedor front-end com paixão por transformar ideias em experiências digitais
+          eficientes e visualmente marcantes. Atuo na criação de interfaces modernas, acessíveis e responsivas, sempre
+          com
+          foco em usabilidade, performance e código limpo.
+
+          Tenho experiência prática com HTML, CSS, JavaScript, React, Tailwind e ferramentas como Firebase, Git e Vite.
+          Já
+          desenvolvi projetos reais para clientes, como sites institucionais, landing pages, calculadoras interativas e
+          sistemas simples com autenticação e banco de dados.
+
+          Além da técnica, valorizo boas práticas de desenvolvimento, como arquitetura limpa, reaproveitamento de código
+          e
+          SEO básico. Estou sempre aprendendo, testando novas tecnologias e buscando soluções inteligentes para entregar
+          valor real.
+        </p>
+        <img src="assets/img/perfil.jpeg" alt="Foto de Leonardo Mattheus" class="sobre-img" />
+      </div>
+    </section>
+
+    <section id="skills" aria-labelledby="titulo-skills">
+      <h2 id="titulo-skills">Habilidades & Ferramentas</h2>
+      <ul class="skills-list">
+        <li><strong>Linguagens:</strong> HTML, CSS, JavaScript, TypeScript</li>
+        <li><strong>Frameworks & Libs:</strong> React, Vite, Tailwind, Next.js</li>
+        <li><strong>Back-end:</strong> Firebase Firestore, Firebase Auth</li>
+        <li><strong>Ferramentas:</strong> Git & GitHub, Figma, Form.io, Tidio, SEO Básico</li>
+        <li><strong>Outros:</strong> Responsividade, Acessibilidade, UX/UI, Deploy com Vercel</li>
+        <li><strong>Metodologias Ágeis:</strong> Scrum, Kanban</li>
+        <li><strong>Idiomas:</strong> Inglês (intermediário), Francês (básico)</li>
+      </ul>
+    </section>
+
+    <section id="projetos" aria-labelledby="titulo-projetos">
+      <h2 id="titulo-projetos" data-i18n="projetos.titulo">Projetos em destaque</h2>
+
+      <div class="projeto projeto-flex">
+        <img src="assets/img/ygornutri.jpeg" alt="Miniatura do site Ygor Azevedo Nutri" class="projeto-img" />
+        <div class="projeto-info">
+          <h3>Ygor Azevedo Nutri</h3>
+          <p data-i18n="projeto.ygornutri.desc">Site institucional responsivo para nutricionista, com foco em performance, informações de serviço, contato direto e IMC interativo.</p>
+          <div class="projeto-skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Firebase</span>
+            <span>Responsivo</span>
+          </div>
+          <a href="https://ygorazevedonutri.com.br" target="_blank">Ver Projeto</a>
+        </div>
+      </div>
+
+      <div class="projeto projeto-flex">
+        <img src="assets/img/bikcraft.jpg" alt="Miniatura do projeto Bikecraft" class="projeto-img" />
+        <div class="projeto-info">
+          <h3>Bikecraft</h3>
+          <p data-i18n="projeto.bikecraft.desc">Landing page moderna e responsiva para e-commerce de bicicletas premium. Destaque para o design e usabilidade.</p>
+          <div class="projeto-skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>UX</span>
+          </div>
+          <a href="https://bikecraft-github-io.vercel.app/" target="_blank">Ver Projeto</a>
+        </div>
+      </div>
+
+      <div class="projeto projeto-flex">
+        <img src="assets/img/imc.jpg" alt="Miniatura do projeto Calculadora de IMC" class="projeto-img" />
+        <div class="projeto-info">
+          <h3>Calculadora IMC</h3>
+          <p data-i18n="projeto.imc.desc">Ferramenta simples e funcional para cálculo de IMC, utilizando apenas HTML, CSS e JavaScript puro.</p>
+          <div class="projeto-skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <a href="https://calculo-imc-sage.vercel.app/" target="_blank">Ver Projeto</a>
+        </div>
+      </div>
+
+      <div class="projeto projeto-flex">
+        <img src="assets/img/amigosecreto.jpg" alt="Miniatura do projeto Amigo Secreto" class="projeto-img" />
+        <div class="projeto-info">
+          <h3>Amigo Secreto</h3>
+          <p data-i18n="projeto.amigosecreto.desc">Aplicativo web para sorteio automático de amigo secreto com envio de resultados por email. Fácil de usar e ideal para grupos.</p>
+          <div class="projeto-skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>EmailJS</span>
+          </div>
+          <a href="#" target="_blank">Ver Projeto</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" aria-labelledby="titulo-contato">
+      <h2 id="titulo-contato" data-i18n="contato.titulo">Vamos conversar?</h2>
+      <p data-i18n="contato.descricao">Me chame para colaborar em projetos ou para solicitar um orçamento. Também ajudo
+        você a desenvolver seu código,
+        edição de vídeo, landing pages, anuncios e otimizações de SEO. Entre em contato e faça um orçamento.
+      </p>
+      <ul>
+        <li><a href="https://wa.me/5521999211995" target="_blank" data-i18n="contato.whatsapp">WhatsApp</a></li>
+        <li><a href="mailto:leonardo.mattheus.dev@gmail.com" data-i18n="contato.email">Email</a></li>
+        <li><a href="https://github.com/leomatth" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/leonardo-mattheus-475578226/" target="_blank"
+            data-i18n="contato.linkedin">LinkedIn</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Leonardo Mattheus. <span data-i18n="footer.direitos">Todos os direitos reservados.</span></p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
