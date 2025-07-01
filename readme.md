@@ -9,7 +9,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/leomatth/portfolio-leomatth)
 ![GitHub top language](https://img.shields.io/github/languages/top/leomatth/portfolio-leomatth)
 
-[![Me contrate](https://img.shields.io/badge/💼%20Me%20Contrate-blue?style=for-the-badge)](mailto:seuemail@email.com)
+[![Me contrate](https://img.shields.io/badge/💼%20Me%20Contrate-blue?style=for-the-badge)](mailto:leomattheus95@gmail.com)
 
 </div>
 
@@ -51,7 +51,7 @@ O projeto está dividido em seções essenciais para destacar minha trajetória:
 
 ## 📸 Exemplos Visuais
 
-🔗 [Acessar portfólio ao vivo](https://leomatth.vercel.app) *(se houver deploy)*
+🔗 [Acessar portfólio ao vivo](https://portfolio-leomatth.vercel.app/)
 
 ---
 
