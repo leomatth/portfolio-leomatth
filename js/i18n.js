@@ -16,7 +16,11 @@ const translations = {
     "projeto.ygornutri.desc": "Site institucional responsivo para nutricionista, com foco em performance, informações de serviço, contato direto e IMC interativo.",
     "projeto.bikecraft.desc": "Landing page moderna e responsiva para e-commerce de bicicletas premium. Destaque para o design e usabilidade.",
     "projeto.imc.desc": "Ferramenta simples e funcional para cálculo de IMC, utilizando apenas HTML, CSS e Javascript puro.",
-    "projeto.amigosecreto.desc": "Aplicativo web para sorteio automático de amigo secreto com envio de resultados por email. Fácil de usar e ideal para grupos."
+    "projeto.amigosecreto.desc": "Aplicativo web para sorteio automático de amigo secreto com envio de resultados por email. Fácil de usar e ideal para grupos.",
+    "vermais.btn": "Ver mais projetos",
+    "modal.titulo.frontend": "Projetos Front-End",
+    "modal.titulo.backend": "Projetos Back-End",
+    "modal.titulo.fullstack": "Projetos Full Stack"
   },
   en: {
     "hero.greeting": "Hi, I'm Leonardo 👋",
@@ -34,6 +38,10 @@ const translations = {
     "projeto.bikecraft.desc": "Modern and responsive landing page for a premium bicycle e-commerce. Highlights for design and usability.",
     "projeto.imc.desc": "Simple and functional tool for BMI calculation, using only pure HTML, CSS and Javascript.",
     "projeto.amigosecreto.desc": "Web app for automatic secret friend draw with email results. Easy to use and ideal for groups."
+    , "vermais.btn": "See more projects",
+    "modal.titulo.frontend": "Front-End Projects",
+    "modal.titulo.backend": "Back-End Projects",
+    "modal.titulo.fullstack": "Full Stack Projects"
   },
   fr: {
     "hero.greeting": "Salut, je suis Leonardo 👋",
@@ -52,6 +60,11 @@ const translations = {
     "projeto.bikecraft.desc": "Landing page moderne et responsive pour un e-commerce de vélos premium. Design et expérience utilisateur mis en avant.",
     "projeto.imc.desc": "Outil simple et fonctionnel pour le calcul de l'IMC, utilisant uniquement HTML, CSS et Javascript purs.",
     "projeto.amigosecreto.desc": "Application web pour tirage au sort automatique d'ami secret avec envoi des résultats par email. Facile à utiliser et idéale pour les groupes."
+    ,
+    "vermais.btn": "Voir plus de projets",
+    "modal.titulo.frontend": "Projets Front-End",
+    "modal.titulo.backend": "Projets Back-End",
+    "modal.titulo.fullstack": "Projets Full Stack"
   }
 };
 

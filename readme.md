@@ -32,7 +32,7 @@ Com experiência em desenvolvimento web, busco criar aplicações funcionais e v
 - **HTML5**
 - **CSS3 / SASS**
 - **JavaScript**
-- **React.js** *(em breve)*
+- **React.js**
 - **Git & GitHub**
 - **Responsividade & Design Moderno**
 

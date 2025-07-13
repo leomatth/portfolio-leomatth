@@ -35,7 +35,8 @@
   <main>
     <section id="hero" aria-label="Apresentação inicial">
       <h2 data-i18n="hero.greeting">Oi, eu sou o Leonardo 👋</h2>
-      <p data-i18n="hero.subtitle">Desenvolvedor front-end focado em criar experiências web modernas com JavaScript/Typescript,
+      <p data-i18n="hero.subtitle">Desenvolvedor front-end focado em criar experiências web modernas com
+        JavaScript/Typescript,
         React e muito código limpo.</p>
       <a href="#projetos" class="btn" data-i18n="hero.button">Veja meus projetos</a>
     </section>
@@ -83,7 +84,8 @@
         <img src="assets/img/ygornutri.jpeg" alt="Miniatura do site Ygor Azevedo Nutri" class="projeto-img" />
         <div class="projeto-info">
           <h3>Ygor Azevedo Nutri</h3>
-          <p data-i18n="projeto.ygornutri.desc">Site institucional responsivo para nutricionista, com foco em performance, informações de serviço, contato direto e IMC interativo.</p>
+          <p data-i18n="projeto.ygornutri.desc">Site institucional responsivo para nutricionista, com foco em
+            performance, informações de serviço, contato direto e IMC interativo.</p>
           <div class="projeto-skills">
             <span>HTML</span>
             <span>CSS</span>
@@ -99,7 +101,8 @@
         <img src="assets/img/bikcraft.jpg" alt="Miniatura do projeto Bikecraft" class="projeto-img" />
         <div class="projeto-info">
           <h3>Bikecraft</h3>
-          <p data-i18n="projeto.bikecraft.desc">Landing page moderna e responsiva para e-commerce de bicicletas premium. Destaque para o design e usabilidade.</p>
+          <p data-i18n="projeto.bikecraft.desc">Landing page moderna e responsiva para e-commerce de bicicletas premium.
+            Destaque para o design e usabilidade.</p>
           <div class="projeto-skills">
             <span>HTML</span>
             <span>CSS</span>
@@ -114,7 +117,8 @@
         <img src="assets/img/imc.jpg" alt="Miniatura do projeto Calculadora de IMC" class="projeto-img" />
         <div class="projeto-info">
           <h3>Calculadora IMC</h3>
-          <p data-i18n="projeto.imc.desc">Ferramenta simples e funcional para cálculo de IMC, utilizando apenas HTML, CSS e JavaScript puro.</p>
+          <p data-i18n="projeto.imc.desc">Ferramenta simples e funcional para cálculo de IMC, utilizando apenas HTML,
+            CSS e JavaScript puro.</p>
           <div class="projeto-skills">
             <span>HTML</span>
             <span>CSS</span>
@@ -128,7 +132,8 @@
         <img src="assets/img/amigosecreto.jpg" alt="Miniatura do projeto Amigo Secreto" class="projeto-img" />
         <div class="projeto-info">
           <h3>Amigo Secreto</h3>
-          <p data-i18n="projeto.amigosecreto.desc">Aplicativo web para sorteio automático de amigo secreto com envio de resultados por email. Fácil de usar e ideal para grupos.</p>
+          <p data-i18n="projeto.amigosecreto.desc">Aplicativo web para sorteio automático de amigo secreto com envio de
+            resultados por email. Fácil de usar e ideal para grupos.</p>
           <div class="projeto-skills">
             <span>HTML</span>
             <span>CSS</span>
@@ -137,6 +142,10 @@
           </div>
           <a href="https://secretnumber-six.vercel.app/" target="_blank">Ver Projeto</a>
         </div>
+      </div>
+
+      <div class="ver-mais-wrapper">
+        <button id="ver-mais-btn" class="ver-mais-btn" data-i18n="vermais.btn">Ver mais projetos</button>
       </div>
     </section>
 
@@ -160,7 +169,33 @@
     <p>&copy; 2025 Leonardo Mattheus. <span data-i18n="footer.direitos">Todos os direitos reservados.</span></p>
   </footer>
 
-  <!-- Scripts -->
+  <div id="modal-projetos" class="modal-projetos">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Fechar">×</button>
+      <h2 data-i18n="modal.titulo.frontend">Projetos Front-End</h2>
+      <div class="modal-projetos-list">
+        <div class="projeto projeto-flex">
+          <img src="assets/img/exemplo-frontend.jpg" alt="Miniatura" class="projeto-img" />
+          <div class="projeto-info">
+            <h3>Exemplo Front-End</h3>
+            <p>Descrição do projeto front-end.</p>
+            <div class="projeto-skills">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <a href="#" target="_blank">Ver Projeto</a>
+          </div>
+        </div>
+      </div>
+      <h2 data-i18n="modal.titulo.backend">Projetos Back-End</h2>
+      <div class="modal-projetos-list">
+      </div>
+      <h2 data-i18n="modal.titulo.fullstack">Projetos Full Stack</h2>
+      <div class="modal-projetos-list">
+      </div>
+    </div>
+  </div>
   <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
 </body>
