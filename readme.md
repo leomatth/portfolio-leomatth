@@ -1,132 +1,195 @@
-# Portfolio - Leonardo Matheus
+# 🚀 Leonardo Pereira - Portfólio
 
-Portfolio pessoal desenvolvido com React e Vite, apresentando projetos, habilidades e experiência profissional.
+> Desenvolvedor Front-end & QA especializado em criar interfaces intuitivas e experiências de usuário excepcionais.
+
+**Visite o portfólio:** [leomatth.vercel.app](https://leomatth.vercel.app)
+
+---
+
+## 📸 Prévia do Projeto
 
 ![Portfolio Preview](./portfolio-preview.png)
 
-**Acesso ao projeto em produção:** [Link Vercel](#)
+---
 
-## Estrutura do Projeto
+## 🎯 Sobre
+
+Sou um desenvolvedor front-end apaixonado por criar interfaces intuitivas e experiências de usuário excepcionais. Com experiência em desenvolvimento web moderno, trabalho com as tecnologias mais atuais para entregar soluções de alta qualidade.
+
+Meu foco é transformar requisitos complexos em aplicações elegantes, performáticas e acessíveis. Acredito que bom design e código limpo caminham juntos para criar produtos que realmente fazem diferença.
+
+Também sou profissional de Quality Assurance no teste de softwares, utilizando metodologias ágeis e ferramentas de automação que, unidas com o desenvolvimento, tornam o projeto mais seguro para entrega.
+
+**📍 Portugal - Aveiro**
+
+---
+
+## 💼 Serviços Oferecidos
+
+- 🌐 **Website Corporativo** - Sites profissionais e modernos
+- 🛒 **E-commerce** - Lojas online completas e otimizadas
+- 💻 **Aplicações Web** - Soluções web escaláveis
+- 📄 **Landing Pages** - Páginas de conversão de alta performance
+- 🎨 **Redesign** - Renovação de projetos existentes
+- 🧪 **QA & Testes** - Automação de testes e garantia de qualidade
+
+---
+
+## 🎁 Promoções Especiais
+
+| Promoção | Benefício |
+|----------|-----------|
+| **Indique um Amigo** | Ganhe €100 de desconto no seu próximo projeto |
+| **Seu Amigo Ganha** | 10% de desconto no primeiro projeto |
+| **Retorno Futuro** | 10% de desconto em todos os projetos subsequentes |
+
+---
+
+## 📞 Como Funciona
+
+### Processo de Trabalho
+
+1. **Primeiro Contato** - Preencha o formulário no portfólio ou entre em contato via WhatsApp, LinkedIn ou Email
+2. **Conversa Inicial** - Marcamos uma conversa para entender suas necessidades e objetivos
+3. **Proposta em 24h** - Envio uma proposta detalhada com timeline, escopo e investimento
+4. **Resposta em 24h** - Você tem 24 horas para revisar e responder sobre a proposta
+5. **Contrato em 24h** - Após aprovação, enviamos o contrato para assinatura digital
+
+---
+
+## 📧 Contato
+
+- **Email:** leomattheus95@gmail.com
+- **LinkedIn:** [linkedin.com/in/leomatth95](https://www.linkedin.com/in/leomatth95)
+- **GitHub:** [github.com/leomatth](https://github.com/leomatth)
+- **WhatsApp:** Disponível no portfólio
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React 19.2.0
+- JavaScript / TypeScript
+- CSS3 / Tailwind CSS
+- Vite 7.2.4
+
+### QA & Testing
+- Playwright
+- Selenium
+- Cypress
+- Robot Framework
+
+### DevOps & Tools
+- Git / GitHub
+- Docker
+- Vercel
+- ESLint
+
+---
+
+## 📁 Estrutura do Projeto
 
 ```
-portfolio-leomatth-react/
-├── public/                 # Arquivos estáticos públicos
-│   └── vite.svg
-├── src/                    # Código-fonte da aplicação
-│   ├── assets/            # Recursos estáticos (imagens, ícones)
-│   ├── App.jsx            # Componente principal da aplicação
-│   ├── App.css            # Estilos do componente App
-│   ├── main.jsx           # Ponto de entrada da aplicação
-│   └── index.css          # Estilos globais
-├── .github/
-│   └── workflows/         # Configurações de CI/CD
-│       └── ci.yml         # Pipeline de integração contínua
-├── dist/                  # Build de produção (gerado automaticamente)
-├── eslint.config.js       # Configuração do ESLint
-├── vite.config.js         # Configuração do Vite
-├── package.json           # Dependências e scripts do projeto
-└── README.md              # Documentação do projeto
+src/
+├── components/
+│   ├── Header.jsx          # Navegação principal
+│   ├── Hero.jsx            # Seção inicial com animações
+│   ├── About.jsx           # Informações pessoais
+│   ├── Skills.jsx          # Habilidades e tecnologias
+│   ├── Projects.jsx        # Portfólio de projetos
+│   ├── ContactForm.jsx     # Formulário de contato
+│   ├── Contact.jsx         # Links de contato
+│   └── Footer.jsx          # Rodapé
+├── App.jsx                 # Componente principal
+├── App.css                 # Estilos globais
+└── index.css               # Estilos base
 ```
 
-## Funcionalidades
+---
 
-- **Interface Responsiva**: Layout adaptável para diferentes tamanhos de tela
-- **Hot Module Replacement (HMR)**: Atualização instantânea durante o desenvolvimento
-- **Build Otimizado**: Processo de build otimizado com Vite para produção
-- **Code Quality**: Integração com ESLint para manutenção da qualidade do código
-- **CI/CD**: Pipeline automatizado de integração contínua via GitHub Actions
-- **Performance**: Carregamento rápido e otimizado de assets
+## 🚀 Como Executar Localmente
 
-## Tech Stack
+### Pré-requisitos
+- Node.js 16+
+- npm ou yarn
 
-### Dependências Principais
-- **React 19.2.0**: Biblioteca JavaScript para construção de interfaces de usuário
-- **React DOM 19.2.0**: Renderização de componentes React no DOM
-
-### Ferramentas de Desenvolvimento
-- **Vite 7.2.4**: Build tool e dev server de alta performance
-- **@vitejs/plugin-react 5.1.1**: Plugin oficial do React para Vite
-- **ESLint 9.39.1**: Linter para identificação de problemas no código
-- **@eslint/js 9.39.1**: Configuração base do ESLint
-- **eslint-plugin-react-hooks 7.0.1**: Regras do ESLint para React Hooks
-- **eslint-plugin-react-refresh 0.4.24**: Suporte ao Fast Refresh do React
-- **globals 16.5.0**: Variáveis globais para configuração do ESLint
-
-### Scripts Disponíveis
+### Instalação
 
 ```bash
-# Instalar dependências
+# Clone o repositório
+git clone https://github.com/leomatth/portfolio-leomatth.git
+
+# Acesse o diretório
+cd portfolio-leomatth
+
+# Instale as dependências
 npm install
 
-# Iniciar servidor de desenvolvimento
+# Inicie o servidor de desenvolvimento
 npm run dev
+```
 
-# Executar build de produção
+### Build para Produção
+
+```bash
+# Gerar build otimizado
 npm run build
 
-# Executar linter
-npm run lint
-
-# Visualizar preview do build de produção
+# Visualizar preview do build
 npm run preview
 ```
 
-## Seções
+---
 
-O portfolio inclui as seguintes seções principais:
+## ✨ Funcionalidades Principais
 
-- **Início**: Apresentação pessoal e introdução
-- **Sobre**: Informações sobre experiência e formação
-- **Projetos**: Portfólio de projetos desenvolvidos
-- **Habilidades**: Tecnologias e ferramentas dominadas
-- **Contato**: Formas de entrar em contato
+- ✅ **Design Responsivo** - Funciona perfeitamente em todos os dispositivos
+- ✅ **Animações Suaves** - Transições e efeitos visuais profissionais
+- ✅ **Flip Cards 3D** - Projetos com animação de flip interativa
+- ✅ **Formulário Dinâmico** - Contato com validação e feedback
+- ✅ **Dark Theme** - Interface moderna com tema escuro
+- ✅ **Performance Otimizada** - Carregamento rápido e eficiente
+- ✅ **Segurança** - CSP, headers de segurança e boas práticas
 
-## Multilíngua
+---
 
-O projeto suporta múltiplos idiomas, permitindo navegação em diferentes localizações.
+## 🔒 Segurança
 
-## Contribuindo
+Este projeto implementa várias medidas de segurança:
 
-Contribuições são bem-vindas! Para contribuir com este projeto:
+- Content Security Policy (CSP)
+- Headers de segurança (X-Frame-Options, X-XSS-Protection, etc.)
+- Validação de formulários
+- Variáveis de ambiente seguras
+- Sem dados sensíveis no código
 
-1. Faça um fork do repositório
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
+Veja [SECURITY.md](./SECURITY.md) para mais detalhes.
 
-### Padrões de Código
+---
 
-- Siga as regras do ESLint configuradas no projeto
-- Mantenha o código limpo e bem documentado
-- Escreva commits descritivos seguindo o padrão convencional
-
-## Encontrou um Bug?
-
-Se você encontrou um bug ou tem uma sugestão de melhoria, por favor:
-
-1. Verifique se o problema já foi reportado nas [Issues](https://github.com/leomatth/portfolio-leomatth/issues)
-2. Se não encontrar, abra uma nova issue descrevendo:
-   - Descrição clara do problema
-   - Passos para reproduzir
-   - Comportamento esperado vs. comportamento atual
-   - Ambiente (navegador, versão do Node.js, etc.)
-
-## Recursos e Documentação
-
-### Documentação das Tecnologias
+## 📚 Recursos
 
 - [React Documentation](https://react.dev/)
 - [Vite Documentation](https://vite.dev/)
-- [ESLint Documentation](https://eslint.org/)
-- [GitHub Actions Documentation](https://docs.github.com/en/actions)
+- [MDN Web Docs](https://developer.mozilla.org/)
 
-### Ferramentas Utilizadas
+---
 
-- [Vercel](https://vercel.com/) - Deploy e hospedagem
-- [GitHub Actions](https://github.com/features/actions) - CI/CD
-- [ESLint](https://eslint.org/) - Linting e qualidade de código
-
-## Licença
+## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## 👨‍💻 Autor
+
+**Leonardo Pereira**
+- 🌐 Portfólio: [leomatth.vercel.app](https://leomatth.vercel.app)
+- 💼 LinkedIn: [linkedin.com/in/leomatth95](https://www.linkedin.com/in/leomatth95)
+- 🐙 GitHub: [github.com/leomatth](https://github.com/leomatth)
+- 📧 Email: leomattheus95@gmail.com
+
+---
+
+**Desenvolvido com ❤️ em Portugal**
