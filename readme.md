@@ -2,7 +2,7 @@
 
 > Desenvolvedor Front-end & QA especializado em criar interfaces intuitivas e experiências de usuário excepcionais.
 
-**Visite o portfólio:** [leomatth.vercel.app](https://leomatth.vercel.app)
+**Visite o portfólio:** [portfolio-leomatth.vercel.app](https://portfolio-leomatth.vercel.app/)
 
 ---
 
@@ -185,7 +185,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ## 👨‍💻 Autor
 
 **Leonardo Pereira**
-- 🌐 Portfólio: [leomatth.vercel.app](https://leomatth.vercel.app)
+- 🌐 Portfólio: [portfolio-leomatth.vercel.app](https://portfolio-leomatth.vercel.app/)
 - 💼 LinkedIn: [linkedin.com/in/leomatth95](https://www.linkedin.com/in/leomatth95)
 - 🐙 GitHub: [github.com/leomatth](https://github.com/leomatth)
 - 📧 Email: leomattheus95@gmail.com
