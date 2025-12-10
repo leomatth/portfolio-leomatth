@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import emailjs from '@emailjs/browser'
 import './ContactForm.css'
 
 export default function ContactForm() {
@@ -13,6 +14,13 @@ export default function ContactForm() {
   })
 
   const [submitted, setSubmitted] = useState(false)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState('')
+
+  // Inicializar EmailJS
+  useEffect(() => {
+    emailjs.init('HI4fyNiSJo46BBFVt')
+  }, [])
 
   const handleChange = (e) => {
     const { name, value } = e.target
@@ -24,21 +32,34 @@ export default function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Aqui você pode adicionar a lógica para enviar o formulário
-    console.log('Form submitted:', formData)
-    setSubmitted(true)
-    setTimeout(() => {
-      setFormData({
-        firstName: '',
-        lastName: '',
-        email: '',
-        countryCode: '+55',
-        phone: '',
-        serviceType: '',
-        projectDescription: ''
+    setLoading(true)
+    setError('')
+
+    emailjs.sendForm('service_jwbzc0h', 'template_d0a8wif', '#contact-form-element')
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text)
+        setSubmitted(true)
+        setFormData({
+          firstName: '',
+          lastName: '',
+          email: '',
+          countryCode: '+55',
+          phone: '',
+          serviceType: '',
+          projectDescription: ''
+        })
+
+        setTimeout(() => {
+          setSubmitted(false)
+        }, 3000)
       })
-      setSubmitted(false)
-    }, 3000)
+      .catch((error) => {
+        console.log('FAILED...', error)
+        setError('Erro ao enviar formulário. Tente novamente.')
+      })
+      .finally(() => {
+        setLoading(false)
+      })
   }
 
   const serviceTypes = [
@@ -98,7 +119,7 @@ export default function ContactForm() {
           </div>
         </div>
 
-        <form className="contact-form" onSubmit={handleSubmit}>
+        <form id="contact-form-element" className="contact-form" onSubmit={handleSubmit}>
           <div className="form-row">
             <div className="form-group">
               <label htmlFor="firstName">Nome *</label>
@@ -165,6 +186,7 @@ export default function ContactForm() {
                 onChange={handleChange}
                 placeholder="999999999"
                 className="phone-input"
+                maxLength={10}
               />
             </div>
           </div>
@@ -199,8 +221,10 @@ export default function ContactForm() {
             />
           </div>
 
-          <button type="submit" className="submit-button">
-            {submitted ? '✓ Mensagem Enviada!' : 'Enviar Proposta'}
+          {error && <p className="form-error">{error}</p>}
+
+          <button type="submit" className="submit-button" disabled={loading}>
+            {loading ? '⏳ Enviando...' : submitted ? '✓ Mensagem Enviada!' : 'Enviar Proposta'}
           </button>
 
           <p className="form-note">
