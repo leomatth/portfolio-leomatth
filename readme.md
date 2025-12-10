@@ -8,7 +8,9 @@
 
 ## 📸 Prévia do Projeto
 
-![Portfolio Preview](./portfolio-preview.png)
+![Portfolio Preview - Leonardo Pereira](./portfolio-preview.png)
+
+*Seção Hero do portfólio com animações interativas e design moderno*
 
 ---
 
