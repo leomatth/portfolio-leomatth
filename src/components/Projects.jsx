@@ -7,7 +7,7 @@ export default function Projects() {
       id: 1,
       title: 'Ygor Azevedo Nutri',
       description: 'Website profissional para nutricionista com design moderno e responsivo',
-      tags: ['React', 'JavaScript', 'CSS'],
+      tags: ['HTML', 'JavaScript', 'CSS'],
       link: 'https://github.com/leomatth/YgorAzevedoNutri',
       demo: 'https://ygorazevedonutri.com.br'
     },
@@ -15,7 +15,7 @@ export default function Projects() {
       id: 2,
       title: 'Landing Page Ygor Azevedo',
       description: 'Landing page profissional com design atrativo e conversão otimizada',
-      tags: ['HTML', 'CSS', 'JavaScript'],
+      tags: ['React', 'CSS', 'JavaScript'],
       link: 'https://github.com/leomatth/landing-page-ygor-azevedo',
       demo: 'https://landing-page-ygor-azevedo.vercel.app/'
     },
@@ -50,6 +50,14 @@ export default function Projects() {
       tags: ['JavaScript', 'Canvas', 'Game Dev'],
       link: 'https://github.com/leomatth',
       demo: 'https://mario-gamegithubio.vercel.app/'
+    },
+    {
+      id: 7,
+      title: 'Glamuor Flor Salão',
+      description: 'Landing Page para salão de beleza',
+      tags: ['JavaScript', 'HTML', 'CSS'],
+      link: 'https://github.com/leomatth',
+      demo: 'https://glamuorflor-landing-page.vercel.app/'
     }
   ]
 
