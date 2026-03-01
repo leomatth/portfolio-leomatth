@@ -21,19 +21,19 @@ export default function Projects() {
     },
     {
       id: 3,
-      title: 'Ygor Azevedo Nutri',
-      description: 'Plataforma completa para nutricionista com seções de planos alimentares, depoimentos de pacientes e formulário de contato',
-      tags: ['JavaScript', 'Bootstrap', 'Responsivo', 'Forms'],
-      link: 'https://github.com/leomatth/YgorAzevedoNutri',
-      demo: 'https://ygorazevedo.vercel.app/'
-    },
-    {
-      id: 4,
       title: 'Euro Wine Experience',
       description: 'Vitrine digital para experiências enogastronômicas com design premium, animações suaves e galeria interativa',
       tags: ['React', 'Vite', 'Animações', 'Design Premium'],
       link: 'https://github.com/leomatth',
       demo: 'https://eurowineexperience.vercel.app/'
+    },
+    {
+      id: 4,
+      title: 'Ygor Azevedo Nutri',
+      description: 'Plataforma completa para nutricionista com seções de planos alimentares, depoimentos de pacientes e formulário de contato',
+      tags: ['JavaScript', 'Bootstrap', 'Responsivo', 'Forms'],
+      link: 'https://github.com/leomatth/YgorAzevedoNutri',
+      demo: 'https://ygorazevedo.vercel.app/'
     },
     {
       id: 5,
