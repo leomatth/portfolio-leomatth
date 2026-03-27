@@ -2,19 +2,27 @@ import { useState, useEffect, useRef, useCallback } from 'react'
 import './Projects.css'
 
 export default function Projects() {
-  const allProjects = [
+  const projects = [
     {
       id: 1,
-      title: 'Sublime-se',
-      description: 'Site institucional para clínica de estética com agendamento online, galeria de procedimentos e integração com WhatsApp',
-      tags: ['React', 'Vite', 'Responsivo', 'SEO'],
-      link: 'https://github.com/leomatth',
-      demo: 'https://sublime-se.com.br/'
+      title: "Portfólio Adriano Dantas",
+      description: "Portfólio profissional responsivo com showcase de projetos, experiência profissional e formulário de contato integrado.",
+      link: "https://adrianodantas.vercel.app/",
+      demo: "https://adrianodantas.vercel.app/",
+      tags: ['React', 'Vite', 'Responsivo', 'Portfolio']
     },
     {
       id: 2,
+      title: "Inova Digital",
+      description: "Landing page institucional moderna para agência de marketing e tecnologia, com seções de serviços, portfolio e CTA otimizado.",
+      link: "https://inova-digital.vercel.app/",
+      demo: "https://inova-digital.vercel.app/",
+      tags: ['React', 'Landing Page', 'UI/UX', 'Conversão']
+    },
+    {
+      id: 3,
       title: 'Bikecraft',
-      description: 'Loja virtual de bicicletas artesanais com catálogo de produtos, página de orçamento e layout totalmente responsivo',
+      description: 'Landing page para loja de bicicletas customizadas, com layout responsivo e animações modernas.',
       tags: ['HTML5', 'CSS Grid', 'UI/UX', 'Flexbox'],
       link: 'https://github.com/leomatth/bikecraft.github.io',
       demo: 'https://bikecraft-github-io.vercel.app/'
@@ -68,7 +76,7 @@ export default function Projects() {
   const touchStartX = useRef(0)
   const touchEndX = useRef(0)
 
-  const totalPages = Math.ceil(allProjects.length / 3)
+  const totalPages = Math.ceil(projects.length / 3)
 
   const goToSlide = useCallback((index) => {
     if (isTransitioning) return
@@ -133,7 +141,7 @@ export default function Projects() {
           >
             {Array.from({ length: totalPages }).map((_, pageIndex) => (
               <div key={pageIndex} className="carousel-slide">
-                {allProjects.slice(pageIndex * 3, pageIndex * 3 + 3).map((project) => (
+                {projects.slice(pageIndex * 3, pageIndex * 3 + 3).map((project) => (
                   <div
                     key={project.id}
                     className={`project-card ${flipped[project.id] ? 'flipped' : ''}`}
