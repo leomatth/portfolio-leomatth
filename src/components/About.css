@@ -3,7 +3,6 @@
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
   position: relative;
-  overflow: hidden;
   border-left: 4px solid rgba(59, 130, 246, 0.4);
 }
 
@@ -112,15 +111,6 @@
 }
 
 
-@keyframes float {
-  0%, 100% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(30px, -30px);
-  }
-}
-
 .about-quote {
   margin-top: 2rem;
   padding: 1.5rem 0;
@@ -145,24 +135,4 @@
 .about-quote p:last-child {
   color: var(--text-muted);
   font-size: 0.95rem;
-}
-
-@media (max-width: 768px) {
-  .typing-text p {
-    font-size: 1rem;
-  }
-
-  .about::before {
-    width: 300px;
-    height: 300px;
-    right: -20%;
-  }
-
-  .about-quote {
-    padding: 1rem;
-  }
-
-  .about-quote p {
-    font-size: 0.95rem;
-  }
 }
